@@ -64,3 +64,38 @@
   color: black !important;
   text-align: center !important;
 }
+
+.topic-landing-page{
+  font-size: 120px;
+  text-align: left;
+  padding-left: 10%;
+  padding-top: 20%;
+  font-family: Merriweather;
+  color: #FEFEFE;
+  font-weight: 900;
+}
+
+@media (max-width: 768px) {
+  .topic-landing-page {
+    font-size: 60px; 
+    padding-top: 20%;
+    padding-left: 10%;
+    color: #FEFEFE;
+  }
+}
+
+.content-landing-page{
+  size: 40px;
+  font-family: Merriweather;
+  font-weight: 700;
+  padding-left: 10%;
+  color: #FEFEFE;
+}
+
+@media (max-width: 768px) {
+  .content-landing-page {
+    font-size: 60px; 
+    padding-left: 10%;
+    color: #FEFEFE;
+  }
+}

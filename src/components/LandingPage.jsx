@@ -91,6 +91,8 @@ const LandingPage = () => {
                     <img src={require('../images/cloud4.png')} alt={""} style={{i:i}} />
                     <img src={require('../images/cloud5.png')} alt={""} style={{i:i}} />
                 </div>
+                <h1 className='topic-landing-page'> Wonder OF Asia</h1>
+                <h3 className='content-landing-page'>Create Memories, Explore Ceylon</h3>
             </div>
             {/* <div className="content row">
                 <div className="col-sm-2">
