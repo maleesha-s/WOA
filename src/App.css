@@ -59,3 +59,8 @@
     transform: translateX(100%);
   }
 }
+
+.ant-dropdown-trigger{
+  color: black !important;
+  text-align: center !important;
+}

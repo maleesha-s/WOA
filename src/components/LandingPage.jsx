@@ -92,7 +92,7 @@ const LandingPage = () => {
                     <img src={require('../images/cloud5.png')} alt={""} style={{i:i}} />
                 </div>
             </div>
-            <div className="content row">
+            {/* <div className="content row">
                 <div className="col-sm-2">
                     {areas.map((area) => (
                         <div>
@@ -108,7 +108,7 @@ const LandingPage = () => {
                     ))}
                 </div>
                 <div className="col-sm-2"></div>
-            </div>
+            </div> */}
         </div>
     );
 };
