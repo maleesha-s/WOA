@@ -1,38 +1,61 @@
-.App {
-  text-align: center;
+.logo-brand {
+  background-image: url('./images/logo.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35px;
+  width: 87px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.destination-card{
+  width: 40% !important;
+  height: auto;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+.card-image{
+  width: 500px;
+  height: 500px;
+}
+
+.index-body {
+  background-image: url('./images//Sigiriya-index.png');
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar{
+  position: fixed !important;
+  width: 100% !important;
+}
+
+.content{
+  position: relative !important;
+  padding: 75px 100px;
+}
+
+.clouds{
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.clouds img{
+  position: absolute !important;
+  bottom: 0;
+  padding-bottom: 0;
+  opacity: 0.5;
+  padding-left: 20px;
+  max-width: 100%;
+  animation: animate calc(8s * 20) linear infinite;
+}
+@keyframes animate{
+  0%{
+    transform: translateX(-100%);
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
+  100%{
+    transform: translateX(100%);
   }
 }
