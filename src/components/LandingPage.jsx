@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import DestinationCard from './DestinationCard';
-
+import { Button, Space } from 'antd';
 const destinations = [
     {
         id: 1,
@@ -85,15 +85,18 @@ const LandingPage = () => {
             <Header />
             <div className='index-body'>
                 <div className="clouds">
-                    <img src={require('../images/cloud1.png')} alt={""} style={{'--i':1}} />
-                    <img src={require('../images/cloud2.png')} alt={""} style={{i:i}} />
-                    <img src={require('../images/cloud3.png')} alt={""} style={{i:i}} />
-                    <img src={require('../images/cloud4.png')} alt={""} style={{i:i}} />
-                    <img src={require('../images/cloud5.png')} alt={""} style={{i:i}} />
+                    <img src={require('../images/cloud1.png')} alt={""} style={{ '--i': 1 }} />
+                    <img src={require('../images/cloud2.png')} alt={""} style={{ i: i }} />
+                    <img src={require('../images/cloud3.png')} alt={""} style={{ i: i }} />
+                    <img src={require('../images/cloud4.png')} alt={""} style={{ i: i }} />
+                    <img src={require('../images/cloud5.png')} alt={""} style={{ i: i }} />
                 </div>
                 <h1 className='topic-landing-page'> Wonder OF Asia</h1>
-                <h3 className='content-landing-page'>Create Memories, Explore Ceylon</h3>
+                <h3 className='content-landing-page'>
+                    Create Memories, Explore Ceylon <Button className='explore-button' type="primary">Explore Now</Button>
+                </h3>
             </div>
+
             {/* <div className="content row">
                 <div className="col-sm-2">
                     {areas.map((area) => (

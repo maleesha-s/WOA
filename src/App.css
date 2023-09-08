@@ -103,3 +103,13 @@
     color: #FEFEFE;
   }
 }
+
+.explore-button{
+  margin-left: 10px;
+  background-color: #028CB6 !important;
+  font-family: Merriweather;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 10px !important;
+  height: auto !important;
+}
