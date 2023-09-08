@@ -2,6 +2,8 @@ import React from 'react';
 import Header from './Header';
 import DestinationCard from './DestinationCard';
 import { Button, Space } from 'antd';
+import CardView from './Common/CardView';
+
 const destinations = [
     {
         id: 1,
@@ -97,6 +99,12 @@ const LandingPage = () => {
                 </h3>
             </div>
 
+            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+                {destinations.map((destination) => (
+                    <CardView key={destination.id} destination={destination}/>
+
+                ))}
+            </div>
             {/* <div className="content row">
                 <div className="col-sm-2">
                     {areas.map((area) => (
