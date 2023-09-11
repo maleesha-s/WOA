@@ -1,21 +1,24 @@
 import React from 'react';
 import { location ,ShareAltOutlined, LikeOutlined } from '@ant-design/icons';
 import { Avatar, Card } from 'antd';
+import CarouselAuto from './CarouselAuto';
+
 const { Meta } = Card;
 
 const CardView = ({ destination }) => (
     <Card
       style={{
-        width: 300,
+        width: 400,
         marginTop: 20,
-        marginLeft: 20
+        marginLeft: 30
       }}
       cover={
-        <img
-          alt="example"
-          src={require(`../../images/${destination.image}`)}
-          height={200}
-        />
+        <CarouselAuto style={{'height':'150px'}}/>
+        // <img
+        //   alt="example"
+        //   src={require(`../../images/${destination.image}`)}
+        //   height={200}
+        // />
       }
       actions={[
         <LikeOutlined key="setting" />,

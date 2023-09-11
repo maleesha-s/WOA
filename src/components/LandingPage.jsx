@@ -99,7 +99,7 @@ const LandingPage = () => {
                 </h3>
             </div>
 
-            <div style={{display: 'flex', flexWrap: 'wrap'}}>
+            <div style={{display: 'flex', flexWrap: 'wrap', alignContent:'center'}}>
                 {destinations.map((destination) => (
                     <CardView key={destination.id} destination={destination}/>
 
