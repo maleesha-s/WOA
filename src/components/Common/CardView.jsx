@@ -9,10 +9,9 @@ const CardView = ({ destination}) => (
   
   <Card
     style={{
-      width: 400,
-      marginTop: 20,
-      marginLeft: 30,
-      boxShadow: '0px 6px 6px 0px rgba(167, 108, 108, 0.25);',
+      width: 350,
+      margin: '20px auto',
+      boxShadow: '0px 6px 6px 0px rgba(167, 108, 108, 0.25)',
       transition: 'box-shadow 0.3s',
     }}
     cover={

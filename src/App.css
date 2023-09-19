@@ -35,6 +35,21 @@
   width: 100%;
   z-index: 1000; 
 }
+
+.top-places-text{
+  padding-top: 5%;
+  margin-left: 10%;
+}
+
+.card-view-container {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: center;
+  border-left: 2px solid #000; /* Add a 1px solid border on the left side */
+  margin-left: 10%; /* Adjust the padding to control the distance between the line and content */
+  margin-right: 10%;
+}
+
 .destination-card {
   width: 40% !important;
   height: auto;
