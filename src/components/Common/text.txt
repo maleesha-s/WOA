@@ -1,0 +1,25 @@
+<div>
+            <div className={'landing-page-body'} style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
+                <Header className='header-fixed'/>
+                <div className='index-body-'>
+{/* 
+                    <div className="clouds">
+                        <img src={require('../images/cloud1.png')} alt={""} style={{ '--i': 1 }} />
+                        <img src={require('../images/cloud2.png')} alt={""} style={{ i: i }} />
+                        <img src={require('../images/cloud3.png')} alt={""} style={{ i: i }} />
+                        <img src={require('../images/cloud4.png')} alt={""} style={{ i: i }} />
+                        <img src={require('../images/cloud5.png')} alt={""} style={{ i: i }} />
+                    </div> */}
+                    <h1 className='topic-landing-page'> Wonder OF Asia</h1>
+                    <h3 className='content-landing-page'>
+                        Create Memories, Explore Ceylon <Button className='explore-button' type="primary">Explore Now</Button>
+                    </h3>
+                </div>
+            </div>
+
+            < div style={{ display: 'flex', flexWrap: 'wrap', alignContent: 'center' }}>
+                {ItemList.map((destination) => (
+                    <CardView key={destination.id} destination={destination} />
+                ))}
+            </div>
+        </div >

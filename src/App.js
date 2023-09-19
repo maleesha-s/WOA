@@ -5,12 +5,15 @@ import LandingPage from './components/LandingPage';
 import "bootstrap/dist/css/bootstrap.min.css";
 // Bootstrap Bundle JS
 import "bootstrap/dist/js/bootstrap.bundle.min";
+import DetailedPage from './components/DetailedPage';
+
 function App() {
   return (
     <div className="App">
         <BrowserRouter>
           <Routes>
             <Route path = "/" element={<LandingPage/>}/>
+            <Route path = "/page" element={<DetailedPage/>}/>
           </Routes>
         </BrowserRouter>
     </div>
