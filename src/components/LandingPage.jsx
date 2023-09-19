@@ -31,14 +31,14 @@ const LandingPage = () => {
             <div className={'landing-page-body'} style={{ backgroundImage: `url(${backgroundImageUrl})` }}>
                 <Header className />
                 <div className='index-body-'>
-
+{/* 
                     <div className="clouds">
                         <img src={require('../images/cloud1.png')} alt={""} style={{ '--i': 1 }} />
                         <img src={require('../images/cloud2.png')} alt={""} style={{ i: i }} />
                         <img src={require('../images/cloud3.png')} alt={""} style={{ i: i }} />
                         <img src={require('../images/cloud4.png')} alt={""} style={{ i: i }} />
                         <img src={require('../images/cloud5.png')} alt={""} style={{ i: i }} />
-                    </div>
+                    </div> */}
                     <h1 className='topic-landing-page'> Wonder OF Asia</h1>
                     <h3 className='content-landing-page'>
                         Create Memories, Explore Ceylon <Button
