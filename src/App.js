@@ -7,6 +7,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import DetailedPage from './components/DetailedPage';
 
+
 function App() {
   return (
     <div className="App">
@@ -14,6 +15,7 @@ function App() {
           <Routes>
             <Route path = "/" element={<LandingPage/>}/>
             <Route path = "/page" element={<DetailedPage/>}/>
+            <Route path = "/detail" element={<DetailedPage/>}/>
           </Routes>
         </BrowserRouter>
     </div>

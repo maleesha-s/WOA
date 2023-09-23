@@ -4,7 +4,6 @@ import { Card } from 'antd';
 import CarouselAuto from './CarouselAuto';
 
 const { Meta } = Card;
-
 const CardView = ({ destination}) => (
   
   <Card
